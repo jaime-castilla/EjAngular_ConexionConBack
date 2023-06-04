@@ -1,0 +1,12 @@
+<h1>Ejercicio 2 Conexion Con Back</h1>
+<table border="1">
+    <tr>
+        <th>Proveedores</th>
+        <th>Precio Unitario</th>
+    </tr>
+    <tr *ngFor="let elemento of inventarioProveedor">
+        <td>{{elemento.proveedor}}</td>
+        <td>{{elemento.precioUnitario}}</td>
+    </tr>
+
+</table>
